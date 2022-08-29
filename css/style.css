@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+header{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+    background-size: cover;
+    background-position: center;
+    
+}
+header .nav{
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: bottom;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+header .nav-bar a{
+    
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+   padding-right: 20px;
+
+}
+header .btn-nav a{
+ background-color: #fff;
+ color: #000;
+ border-radius: 20px;
+ padding: 15px 40px;
+ font-weight: bolder;
+}
+
+.logo img{
+    width: 70%;
+}
+
+header .head{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 6rem;
+}
+.head .txt{
+    width: 35%;
+}
+.head .txt h1{
+    font-size: 50px;
+}
+.head .txt p{
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+.head .txt a{
+ background-color:#17709d;
+ color:#fff;
+ border-radius: 20px;
+ padding: 15px 25px;
+ font-weight: bolder;
+ transition: 1s;
+}
+.head .txt a:hover{
+    background-color: #38A9E0;
+}
+
+main .masks{
+    padding-top: 3rem;
+    
+}
+.masks .text{
+    text-align: center;
+    position: relative;
+   
+    
+}
+.masks .text .first h2{
+    color: #F7F7F7;
+    font-size:150px;
+
+}
+.masks .text .second h2{
+  position: absolute;
+  content: '';
+  font-size:35px;
+  left: 42%;
+  bottom:20px;
+  font-size: 40px;
+
+}
+main .all-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .all-box .box img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 10px 10px 0 0;
+    transition: .2s;
+}
+
+main .all-box .box{
+  width: 27%;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 30px;
+ 
+  
+}
+main .all-box .box .icon{
+    position: absolute;
+    content: '';
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+main .all-box .icon i{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+    
+}
+main .box .txt{
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    border-radius: 0 0 10px 10px;
+    line-height: 2;
+    
+}
+main .box .txt a{
+    color: #000;
+}
+
+main .box .img img:hover{
+    transform: scale(1.1);
+   
+}
+main .end-btn{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+main .end-btn a{
+ transition: 1s;
+ background-color:#17709d;
+ color:#fff;
+ border-radius: 20px;
+ padding: 15px 25px;
+ font-weight: bolder;
+}
+main .end-btn a:hover{
+    background-color: #38A9E0;
+}
+
+main .quality{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0;
+    position: relative;
+
+}
+main .quality img {
+  padding-left: 4rem;
+  padding-top: 20px;
+}
+main .quality h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+    width:70%
+}
+main .quality p{
+    font-size: 20px;
+   width: 60%;
+   padding-left: 30px;
+   padding-bottom: 30px;
+}
+main .quality a{
+ color:#17709d;
+ background-color:#fff;
+ border-radius: 20px;
+ padding: 15px 25px;
+ font-weight: bolder;
+ 
+
+ 
+}
+main .quality .txt{
+    color: #fff;
+    position: absolute;
+    content: '';
+    text-align: center;
+    bottom: 60px;  
+}
+.latest {
+    padding-bottom: 3rem;
+}
+
+main .subscribe{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+    background-position: center;
+    background-size: cover;
+    padding:9rem 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    
+}
+main .subscribe .img{
+  padding-bottom: 40px;
+}
+ main .subscribe .txt h2{
+   position: absolute;
+    content: '';
+   font-size: 40px;
+   left:450px;
+   top:230px
+    
+ }
+main .subscribe .txt p{
+    width: 30%;
+   margin: auto;
+   line-height: 1.5;
+   padding-bottom: 30px;
+}
+main .subscribe .input input{
+    border-radius: 35px;
+    height: 70px;
+    font-size: 15px;
+    border: 0 none;
+    padding: 35px;
+    width:40%;
+    margin: auto;
+    font-weight: 400;
+    outline: 0;
+    position: relative;
+}
+
+
+main .subscribe .input button{
+    position: absolute;
+    content: '';
+    position: absolute;
+    padding: 20px 28px;
+    border-radius: 35px;
+    top: 395px;
+    left:930px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none;
+    display: block;
+    border: 0;
+    background-color: #17709d;
+    transition: 1s;
+}
+main .subscribe .input button:hover{
+    background-color: #38A9E0;
+}
+
+.product .img-1{
+    padding-top: 3rem;
+    text-align: center;
+}
+.product{
+    
+}
+.product .txt{
+    position: relative;
+    text-align: center;
+}
+.product .txt h2{
+    position: absolute;
+    content: '';
+    left:40%;
+    font-size: 40px;
+    top: -80px;
+}
+.product .txt p{
+ color:gray;
+ width: 30%;
+ margin: auto;
+ line-height: 1.5;
+
+}
+.product .all-boxes .first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px 80px
+
+}
+.product .all-boxes .second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
